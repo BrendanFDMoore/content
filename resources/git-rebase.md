@@ -84,6 +84,6 @@ If you are curious about what’s going on under the hood when you run `git reba
 ## Check your understanding
 
 <details/>
-  <summary>Why do I need to "force push" (`git push -f`) after rebasing?</summary>
-This is necessary because rebasing **rewrites** your commits from the new _base_, so your history no longer matches what is stored in the remote branch. You **force** push to overwrite that old remote history with the new rebased history. 
+  <summary>Why do I need to "force push" (<code>git push -f</code>) after rebasing?</summary>
+This is necessary because rebasing <i>rewrites</i> your commits from the new <i>base</i>, so your history no longer matches what is stored in the remote branch. You <strong>force</strong> push to overwrite that old remote history with the new rebased history. 
 </details>
