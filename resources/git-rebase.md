@@ -81,3 +81,9 @@ Similairly, once you've put up a PR and someone on your team has reviewed it and
 
 If you are curious about what’s going on under the hood when you run `git rebase`, you can read more about the mechanics of it here: https://git-scm.com/book/en/v2/Git-Branching-Rebasing
 
+## Check your understanding
+
+<details/>
+  <summary>Why do I need to "force push" (`git push -f`) after rebasing?</summary>
+This is necessary because rebasing **rewrites** your commits from the new _base_, so your history no longer matches what is stored in the remote branch. You **force** push to overwrite that old remote history with the new rebased history. 
+</details>
